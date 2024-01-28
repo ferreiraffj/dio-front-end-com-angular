@@ -30,4 +30,15 @@ function main() {
   console.log(`Seu IMC é ${imc.toFixed(2)} e você está ${classificaIMC(imc)}`);
 }
 
+// Função não nomeada:
+
+// (function () {
+//     const peso = 57;
+//     const altura = 1.75;
+
+//     const imc = calculaIMC(peso, altura);
+//     classificaIMC(imc);
+//     console.log(`Seu IMC é ${imc.toFixed(2)} e você está ${classificaIMC(imc)}`);
+// })();
+
 main();

@@ -25,6 +25,40 @@ if (valorPago === 0) {
   console.log("Valor a pagar: " + valorPago.toFixed(2));
 }
 
+// --------------------------- com função + objetos ------------------------- //
+
+// function calculaValorPago(valorProduto, formaPagamento) {
+//   let valorPago = 0;
+//   let mensagem = "";
+
+//   if (formaPagamento === "debito") {
+//     valorPago = valorProduto - valorProduto * 0.1;
+//   } else if (formaPagamento === "dinheiro" || formaPagamento === "pix") {
+//     valorPago = valorProduto - valorProduto * 0.15;
+//   } else if (formaPagamento === "cred2x") {
+//     valorPago = valorProduto;
+//   } else if (formaPagamento === "cred3x") {
+//     valorPago = valorProduto + valorProduto * 0.1;
+//   } else {
+//     mensagem = "Forma de pagamento inválida";
+//   }
+
+//   return { valorPago, mensagem };
+// }
+
+// const prod1 = 35.5;
+// const formaPagamento = "pixxxxx";
+
+// const resultado = calculaValorPago(prod1, formaPagamento);
+
+// if (resultado.mensagem) {
+//   console.log(resultado.mensagem);
+// } else {
+//   console.log("Valor a pagar: " + resultado.valorPago.toFixed(2));
+// }
+
+// -------------------------------- sem função ------------------------------ //
+
 // const prod1 = 25;
 
 // const debito = prod1 - prod1 * 0.1;
